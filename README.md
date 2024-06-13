@@ -18,11 +18,11 @@ vot initialize vots2023 --workspace /mnt/i/2023_03_VOT_Challenge/input/romanWork
 Его примерное содержимое:
 
 [SRZLT_HSE_IPPM_ClipSegmentAnything]  # <tracker-name>
-label = PyNCC
-protocol = traxpython
-command = ZFTurbo_HSE_IPPM_tracker_SegmentAnything_and_CLIP
-paths = /mnt/i/2023_03_VOT_Challenge/vot-challenge-2023/tracker_v1
-;env_PATH = <additional-env-paths>;${PATH}
+label = PyNCC  
+protocol = traxpython  
+command = ZFTurbo_HSE_IPPM_tracker_SegmentAnything_and_CLIP  
+paths = /mnt/i/2023_03_VOT_Challenge/vot-challenge-2023/tracker_v1  
+;env_PATH = <additional-env-paths>;${PATH}  
 
 В нем нужно поменять **command** - имя питон файла с трекером. И прописать путь до этого питон файла в переменной **paths**.
 
